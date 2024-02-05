@@ -11,7 +11,7 @@
     "classnames": "^2.5.1",
     "graphql": "^16.8.1",
     "graphql-hooks": "^6.3.2",
-    "gsap": "file:gsap-bonus.tgz",
+    "gsap": "file:src/gsap/npm-install-this/gsap-bonus.tgz",
     "jquery": "^3.7.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
