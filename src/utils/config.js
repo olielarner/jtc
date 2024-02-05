@@ -1,17 +1,17 @@
 // GraphQL API URL
 
 /* Defaults */
-let graphUrl;
-let siteUrl;
+let graphUrl = 'https://jtchild.com/cms/graphql';
+let siteUrl = 'https://jtchild.com/cms/';
 
-if (
-	window.location.hostname === 'localhost ' ||
-	'https://jtchild.com/' ||
-	'162.241.217.231'
-) {
-	graphUrl = 'https://jtchild.com/cms/graphql';
-	siteUrl = 'https://jtchild.com/cms/';
-}
+// if (
+// 	window.location.hostname === 'localhost ' ||
+// 	'https://jtchild.com/' ||
+// 	'162.241.217.231'
+// ) {
+// 	graphUrl = 'https://jtchild.com/cms/graphql';
+// 	siteUrl = 'https://jtchild.com/cms/';
+// }
 
 // // If we're running on localhost then use the local URL
 // if (window.location.hostname === 'localhost') {

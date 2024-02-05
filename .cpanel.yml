@@ -1,0 +1,4 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/jtchildc/repositories/jtc # Add /<app_folder> if required
