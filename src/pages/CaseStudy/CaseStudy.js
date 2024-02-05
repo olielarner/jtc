@@ -176,7 +176,6 @@ const CaseStudy = (slug) => {
 		projectName,
 		year,
 		client,
-		projectType,
 		synopsis,
 		storyboard,
 		development,

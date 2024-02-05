@@ -52,7 +52,7 @@ const Clients = () => {
 		});
 	}, [loaded, client]);
 
-	const { loading, error, data } = useQuery(CLIENT_QUERY);
+	const { loading, data } = useQuery(CLIENT_QUERY);
 	if (loading) return '';
 	return (
 		<div className="relative block w-full py-14 xl:py-52 clients">

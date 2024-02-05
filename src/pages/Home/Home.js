@@ -1,6 +1,5 @@
 import React from 'react';
 import { useQuery, gql } from '@apollo/client';
-import Header from '../../components/Header/Header';
 import Hero from '../../components/Hero/Hero';
 import Clients from '../../components/Clients/Clients';
 import Ticker from '../../components/Ticker/Ticker';

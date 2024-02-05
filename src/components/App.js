@@ -1,10 +1,4 @@
-import {
-	BrowserRouter,
-	Routes,
-	Route,
-	Link,
-	useParams,
-} from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useParams } from 'react-router-dom';
 import AnimatedCursor from 'react-animated-cursor';
 import Home from '../pages/Home/Home';
 import CaseStudy from '../pages/CaseStudy/CaseStudy';

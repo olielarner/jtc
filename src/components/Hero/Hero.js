@@ -26,7 +26,7 @@ const Hero = (data) => {
 			},
 			(context) => {
 				// context.conditions has a boolean property for each condition defined above indicating if it's matched or not.
-				let { isDesktop, isMobile, reduceMotion } = context.conditions;
+				let { isDesktop } = context.conditions;
 
 				const htl = gsap.timeline();
 				htl.to(

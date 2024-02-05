@@ -103,6 +103,7 @@ const Portfolio = () => {
 					el.addEventListener('mouseenter', () => fadeUpText.play());
 					el.addEventListener('mouseleave', () => fadeUpText.reverse());
 				});
+			console.log(ports);
 		}
 	}, [loaded]);
 
