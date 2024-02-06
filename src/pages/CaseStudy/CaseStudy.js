@@ -243,7 +243,7 @@ const CaseStudy = (slug) => {
 				</div>
 			)}
 
-			{!loading && storyboard.storyboardImage.length && (
+			{!loading && storyboard.storyboardImage !== null && (
 				<div className="relative w-full h-screen storyboard py-14">
 					<div className="container flex flex-col justify-center h-full mx-auto xl:block ">
 						<div className="pb-16 case-study-header-container">
@@ -292,7 +292,7 @@ const CaseStudy = (slug) => {
 					</div>
 				</div>
 			)}
-			{development.devImage.length && (
+			{development.devImage !== null && (
 				<div
 					className="relative w-full bg-black development dev-images py-14"
 					ref={devCont}
@@ -327,7 +327,7 @@ const CaseStudy = (slug) => {
 					</div>
 				</div>
 			)}
-			{finalDesigns.finalDesignImage.length && (
+			{finalDesigns.finalDesignImage !== null && (
 				<div className="relative w-full min-h-screen bg-black py-14">
 					<div className="container pb-16 mx-auto case-study-header-container">
 						<h2 className="text-3xl text-white uppercase font-letterGoth">
