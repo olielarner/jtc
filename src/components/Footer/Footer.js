@@ -90,7 +90,7 @@ const Footer = () => {
 						</div>
 
 						<div className="flex socials">
-							{instagramIcon !== null && (
+							{instagramIcon !== null && instagramIcon !== undefined && (
 								<a href={instagramLink}>
 									<img
 										className="w-8 mr-8"
@@ -99,7 +99,7 @@ const Footer = () => {
 									/>
 								</a>
 							)}
-							{linkedinIcon !== null && (
+							{linkedinIcon !== null && linkedinIcon !== undefined && (
 								<a href={linkedinLink}>
 									<img
 										className=" w-9"

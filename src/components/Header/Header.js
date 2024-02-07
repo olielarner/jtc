@@ -125,8 +125,6 @@ const Header = (logo) => {
 				)
 				.reverse();
 		}
-
-		console.log(menuOpen);
 	}, [loaded, header, menuOpen]);
 
 	function openMenu() {
@@ -144,8 +142,6 @@ const Header = (logo) => {
 		linkedinIcon,
 		linkedinLink,
 	} = data.themeOptions.contactInfo;
-
-	console.log('init: ' + menuOpen);
 
 	return (
 		<div
@@ -217,7 +213,7 @@ const Header = (logo) => {
 							</div>
 
 							<div className="flex socials">
-								{instagramIcon !== null && (
+								{instagramIcon !== null && instagramIcon !== undefined && (
 									<a href={instagramLink}>
 										<img
 											className="w-6 mr-6 xl:w-8 xl:mr-8"
@@ -226,7 +222,7 @@ const Header = (logo) => {
 										/>
 									</a>
 								)}
-								{linkedinIcon !== null && (
+								{linkedinIcon !== null && linkedinIcon !== undefined && (
 									<a href={linkedinLink}>
 										<img
 											className="w-7 xl:w-9"

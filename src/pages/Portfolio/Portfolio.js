@@ -116,11 +116,21 @@ const Portfolio = () => {
 	return (
 		<div className="w-full overflow-hidden bg-black" ref={port}>
 			<div className="relative flex flex-col justify-end w-full h-screen ">
-				{portfolioBgVideo !== null && (
-					<video className="object-cover w-screen h-screen" autoPlay loop muted>
-						<source src={portfolioBgVideo.node.mediaItemUrl} type="video/mp4" />
-					</video>
-				)}
+				{!loading &&
+					portfolioBgVideo !== null &&
+					portfolioBgVideo !== undefined && (
+						<video
+							className="object-cover w-screen h-screen"
+							autoPlay
+							loop
+							muted
+						>
+							<source
+								src={portfolioBgVideo.node.mediaItemUrl}
+								type="video/mp4"
+							/>
+						</video>
+					)}
 
 				<div className="container px-6 mx-auto xl:px-0">
 					<h1 className="pt-8 pb-6 text-4xl font-normal tracking-tighter text-white xl:text-6xl font-letterGoth ">

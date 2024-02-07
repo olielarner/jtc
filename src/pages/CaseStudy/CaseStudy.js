@@ -147,7 +147,6 @@ const CaseStudy = (slug) => {
 
 			const final =
 				cs.current.querySelectorAll('.final-designs')[0].offsetWidth;
-			console.log(final);
 			let sections = gsap.utils.toArray('.fd-image');
 			if (document.querySelector('.final-designs').offsetWidth !== null) {
 				gsap.to(sections, {
